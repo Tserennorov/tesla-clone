@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            font-family: 'Montserrat';
+        }
+
+        header {
+            position: fixed;
+            height: 56px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 575px;
+            justify-content: center;
+        }
+
+        .menu-item {
+            text-decoration: none;
+            color: white;
+            margin-left: 32px;
+        }
+
+        button {
+            height: 40px;
+            width: 264px;
+            padding: 11px 40px;
+            border: none;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #btn-white {
+            background: rgba(244, 244, 244, 0.8);
+            backdrop-filter: blur(4px);
+            color: black;
+        }
+
+        #btn-black {
+            background: rgba(23, 26, 32, 0.65);
+            backdrop-filter: blur(4px);
+            color: white;
+        }
+
+        #learn {
+            color: white;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        #section-1 {
+            background-image: url(./cb6af393851dc03dd35d09417c2ceadd.jpeg);
+            background-size: cover;
+        }
+
+        #section-2 {
+            background-image: url(./c7b9a89b28e7054d63200682392b3184.png);
+            background-size: cover;
+        }
+
+        #section-3 {
+            background-image: url(./d0d912a18fa6ec4f1888f100bc845c36.png);
+            background-size: cover;
+        }
+
+        #section-4 {
+            background-image: url(./c7b9a89b28e7054d63200682392b3184.png);
+            background-size: cover;
+        }
+
+        #section-5 {
+            background-image: url(a13f230d90c69b3806b4b679cf16c9ed.png);
+            background-size: cover;
+        }
+
+        .desc {
+            margin-top: 128px;
+            width: 716px;
+            height: 110px;
+            top: 128px;
+            left: 602px;
+            padding: 0px 240px 0px 240px;
+        }
+
+        .desc h1 {
+            color: white;
+            font-weight: 500;
+            font-size: 40px;
+        }
+
+        .desc p {
+            color: white
+        }
+
+
+        .content {
+            flex-direction: column;
+            gap: 32px;
+            color: white;
+        }
+
+        .btn-container {
+            display: flex;
+            gap: 24px;
+        }
+    </style>
+    <title>Tesla clone</title>
+</head>
+
+<body>
+    <header>
+        <img src="./Tesla Logo.png" alt="tesla logo" id="logo">
+        <span id="menus">
+            <a class="menu-item" href="#section-1">Vehicles</a>
+            <a class="menu-item" href="#section-2">Energy</a>
+            <a class="menu-item" href="#section-3">Charging</a>
+            <a class="menu-item" href="#section-4">Discover</a>
+            <a class="menu-item" href="#section-5">Shop</a>
+        </span>
+    </header>
+</body>
+
+<body>
+    <section class="section" id="section-1">
+        <div class="desc">
+            <h1>Modal Y.</h1>
+            <h2>From $ 31,890</h2>
+            <p>after federal tax credit & Est.gas savings</p>
+        </div>
+        <div class="content">
+            <div class="btn-container">
+                <button id="btn-white">shop available </button>
+                <button id="btn-black">Demo drive</button>
+            </div>
+            <span>Price before incentives and savings is $42,990, excluding taxes and
+                fees. Subject to change.
+                <br>
+                <a href="learn">learn about est.gas savings</a>
+            </span>
+        </div>
+    </section>
+    <section class="section" id="section-2">
+        <div>
+            <div class="desc">
+                <h1>Brand New Model</h1>
+                <p>Lease starting at $329/mo*</p>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="section" id="section-3">
+
+    </section>
+    <section class="section" id="section-4">
+
+    </section>
+    <section class="section" id="section-5">
+
+
+    </section>
+</body>
+
+</html>
